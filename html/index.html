@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Home Page</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <script src="login.js"></script>
+   </head>
+   <body>
+      <header>
+         <div id="header-buttons" class="container">
+            <div id='home'>
+               <button onclick="window.location='/static/index.html'">Home</button>
+            </div>
+            <div id='sign-on-up'>
+               <button onclick="window.location='/static/signup.html'">Sign Up</button>
+            </div>
+            <div id='log-on-in'>
+               <button onclick="window.location='/static/login.html'">Log in</button>
+            </div>
+            <div id='log-on-out'>
+               <button onclick="logout();">Logout</button>
+            </div>
+         </div>
+      </header>
+      <hr>
+      <div class="container">
+         <p> Welcom home! </p>
+      </div>
+</html>

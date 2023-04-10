@@ -1,0 +1,6 @@
+.DS_Store
+logs/
+python_venv/
+src/auth_db.egg-info/
+__pycache__/
+src/auth_db/static
